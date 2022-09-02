@@ -9,6 +9,7 @@ const { errorHandler } = require("./middlewares/error.middleware");
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use("/api/tasks", require("./routes/task.route"));
+app.use("/api/users", require("./routes/user.route"));
 app.use("*", require("./middlewares/notFound.middleware"));
 app.use(errorHandler);
 
