@@ -22,10 +22,10 @@ const Signup = () => {
     }
 
   return (
-    <div className="w-full  flex justify-center items-center flex-col">
+    <div className="w-[100%]  flex justify-center items-center flex-col">
         <a href="/" className="bg-[#565252] w-[146px] flex justify-center items-center text-[32px] text-white rounded-[14px] h-[50px]" >Logo</a>
-  <form className="bg-white  px-8 pt-6 pb-8 mb-4" onSubmit={handleSignUpSubmit}>
-    <div className="mb-[80px]">
+  <form className="bg-white w-[60%]  px-8 pt-6 pb-8 mb-4" onSubmit={handleSignUpSubmit}>
+    <div className="mb-[40px]">
       <label className="block text-left text-gray-700 text-[24px] leading-[29.05px] weight-[800] font-bold" for="username">
         NAME
       </label>
@@ -34,8 +34,8 @@ const Signup = () => {
                         appearance-none 
                         border 
                         rounded 
-                        w-[829px] 
-                        h-[83px] 
+                        w-[100%] 
+                        h-[60px] 
                         py-2 
                         px-3 
                         focus:outline-none 
@@ -47,7 +47,7 @@ const Signup = () => {
                         onChange={handleSignUp}
                         />
     </div>
-    <div className="mb-[80px]">
+    <div className="mb-[40px]">
       <label className="block text-left text-gray-700 text-[24px] leading-[29.05px] weight-[800] font-bold " for="username">
         SURNAME
       </label>
@@ -56,8 +56,8 @@ const Signup = () => {
                         appearance-none 
                         border 
                         rounded 
-                        w-[829px] 
-                        h-[83px] 
+                        w-[100%]  
+                        h-[60px] 
                         py-2 
                         px-3 
                         focus:outline-none 
@@ -69,7 +69,7 @@ const Signup = () => {
                         onChange={handleSignUp}
                         />
     </div>
-    <div className="mb-[80px]">
+    <div className="mb-[40px]">
       <label className="block text-left text-gray-700 text-[24px] leading-[29.05px] weight-[800] font-bold " for="username">
         EMAIL ADDRESS
       </label>
@@ -78,8 +78,8 @@ const Signup = () => {
                         appearance-none 
                         border 
                         rounded 
-                        w-[829px] 
-                        h-[83px] 
+                        w-[100%]  
+                        h-[60px] 
                         py-2 
                         px-3 
                         focus:outline-none 
@@ -91,7 +91,7 @@ const Signup = () => {
                         onChange={handleSignUp}
                         />
     </div>
-    <div className="mb-[80px]">
+    <div className="mb-[40px]">
       <label className="block text-left text-gray-700 text-[24px] leading-[29.05px] weight-[800] font-bold " for="username">
         PHONE NUMBER
       </label>
@@ -100,8 +100,8 @@ const Signup = () => {
                         appearance-none 
                         border 
                         rounded 
-                        w-[829px] 
-                        h-[83px] 
+                        w-[100%] 
+                        h-[60px] 
                         py-2 
                         px-3 
                         focus:outline-none 
@@ -113,7 +113,7 @@ const Signup = () => {
                         onChange={handleSignUp}
                         />
     </div>
-    <div className="mb-[80px]">
+    <div className="mb-[40px]">
       <label className="block text-left text-gray-700 text-[24px] leading-[29.05px] weight-[800] font-bold" for="username">
         PASSWORD
       </label>
@@ -122,8 +122,8 @@ const Signup = () => {
                         appearance-none 
                         border 
                         rounded 
-                        w-[829px] 
-                        h-[83px] 
+                       w-[100%] 
+                        h-[60px] 
                         py-2 
                         px-3 
                         focus:outline-none 
@@ -135,7 +135,7 @@ const Signup = () => {
                         onChange={handleSignUp}
                         />
     </div>
-    <div className="mb-[80px]">
+    <div className="mb-[40px]">
       <label className="block text-left text-gray-700 text-[24px] leading-[29.05px] weight-[800] font-bold " for="username">
         CONFIRM
       </label>
@@ -144,8 +144,8 @@ const Signup = () => {
                         appearance-none 
                         border 
                         rounded 
-                        w-[829px] 
-                        h-[83px] 
+                        w-[100%] 
+                        h-[60px] 
                         py-2 
                         px-3 
                         focus:outline-none 
